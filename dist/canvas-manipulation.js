@@ -1,5 +1,5 @@
 /*
- * @blinkmobile/canvas-manipulation: v1.0.0-alpha.1
+ * @blinkmobile/canvas-manipulation: v1.0.0
  * https://github.com/blinkmobile/canvas-manipulation#readme
  *
  * Copyright 2017 BlinkMobile
@@ -119,7 +119,7 @@ function resize(canvas /* : HTMLCanvasElement */
 ) /* : boolean */{
   // Dont do anything if width and height have not changed
   if (canvas.width === width && canvas.height === height) {
-    return false;
+    return true;
   }
 
   // Get the cropped image inside the canvas so that we can check if we need
