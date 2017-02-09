@@ -1,0 +1,43 @@
+{
+  "name": "@blinkmobile/canvas-manipulation",
+  "description": "Helper functions for manipulating a HTMLCanvasElement",
+  "version": "1.0.0",
+  "author": "Matt Carroll <matt@blinkmobile.com.au> (https://github.com/mymattcarroll)",
+  "bugs": {
+    "url": "https://github.com/blinkmobile/canvas-manipulation/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-node": "^4.0.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "fixpack": "^2.3.1",
+    "flow-bin": "^0.38.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "homepage": "https://github.com/blinkmobile/canvas-manipulation#readme",
+  "keywords": [
+    "HTML5",
+    "browser",
+    "canvas"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinkmobile/canvas-manipulation.git"
+  },
+  "scripts": {
+    "eslint": "eslint --fix --cache .",
+    "fixpack": "fixpack",
+    "flow_check": "flow check",
+    "posttest": "npm run eslint && npm run flow_check && npm run remark && npm run fixpack",
+    "remark": "remark . --preset lint-recommended"
+  }
+}
