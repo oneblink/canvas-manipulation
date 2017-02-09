@@ -37,7 +37,7 @@ Helper functions for manipulating a HTMLCanvasElement
 
 ## Usage
 
-### `drawImageCentered(canvas: HTMLCanvasElement, image: CanvasImageSource)`
+##### `drawImageCentered(canvas: HTMLCanvasElement, image: CanvasImageSource)`
 
 -   Draw a [CanvasImageSource](https://developer.mozilla.org/en-US/docs/Web/API/CanvasImageSource) onto a [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)
 
@@ -45,7 +45,7 @@ Helper functions for manipulating a HTMLCanvasElement
 
 -   Will scale the image down to fit if the image is bigger than the canvas
 
-### `resize(canvas: HTMLCanvasElement, width: number, height: number, scaleDown: boolean) : boolean`
+##### `resize(canvas: HTMLCanvasElement, width: number, height: number, scaleDown: boolean) : boolean`
 
 -   Change the width and/or height of a [CanvasImageSource](https://developer.mozilla.org/en-US/docs/Web/API/CanvasImageSource) while preserving the current content
 
@@ -53,7 +53,7 @@ Helper functions for manipulating a HTMLCanvasElement
 
 -   If `scaleDown` is `false` and the content is larger than the newly sized canvas, the content will **not** be preserved
 
-### `toDataURLCropped(canvas: HTMLCanvasElement, type: string, encoderOptions: number) : string`
+##### `toDataURLCropped(canvas: HTMLCanvasElement, type: string, encoderOptions: number) : string`
 
 -   Create a [DataURL](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) after cropping canvas content of white (transparent, the alpha must be 0) space
 
