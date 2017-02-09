@@ -70,6 +70,7 @@
     "flow_check": "flow check",
     "poststart": "npm run watch",
     "posttest": "npm run eslint && npm run flow_check && npm run remark && npm run fixpack",
+    "pretest": "npm run build",
     "remark": "remark . --preset lint-recommended",
     "start": "opn ./example/index.html",
     "test": "karma start",
