@@ -1,0 +1,9 @@
+body {
+  background: rgb(179, 179, 179);
+}
+
+canvas {
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+  background: white;
+}

@@ -29,12 +29,16 @@
     "karma-opera-launcher": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-safari-launcher": "^1.0.0",
+    "opn-cli": "^3.1.0",
     "remark-cli": "^2.1.0",
     "remark-lint": "^5.4.0",
     "remark-preset-lint-recommended": "^1.0.0",
     "rollup": "^0.41.4",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-uglify": "^1.0.1"
+  },
+  "directories": {
+    "example": "example"
   },
   "engines": {
     "node": ">=6",
@@ -63,8 +67,10 @@
     "eslint": "eslint --fix --cache .",
     "fixpack": "fixpack",
     "flow_check": "flow check",
+    "poststart": "npm run watch",
     "posttest": "npm run eslint && npm run flow_check && npm run remark && npm run fixpack",
     "remark": "remark . --preset lint-recommended",
+    "start": "opn ./example/index.html",
     "test": "karma start",
     "watch": "gulp watch"
   }
