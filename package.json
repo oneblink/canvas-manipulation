@@ -38,7 +38,8 @@
     "rollup-plugin-uglify": "^1.0.1"
   },
   "directories": {
-    "example": "example"
+    "example": "example",
+    "test": "test"
   },
   "engines": {
     "node": ">=6",
