@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "../.eslintrc.json"
+  ],
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "rules": {
+    "node/no-unpublished-require": 0
+  }
+}
