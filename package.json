@@ -1,7 +1,7 @@
 {
   "name": "@blinkmobile/canvas-manipulation",
   "description": "Helper functions for manipulating a HTMLCanvasElement",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Matt Carroll <matt@blinkmobile.com.au> (https://github.com/mymattcarroll)",
   "bugs": {
     "url": "https://github.com/blinkmobile/canvas-manipulation/issues"
