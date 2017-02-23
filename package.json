@@ -32,7 +32,7 @@
     "karma-safari-launcher": "^1.0.0",
     "opn-cli": "^3.1.0",
     "remark-cli": "^2.1.0",
-    "remark-lint": "^5.4.0",
+    "remark-lint": "^6.0.0",
     "remark-preset-lint-recommended": "^1.0.0",
     "rollup": "^0.41.4",
     "rollup-plugin-babel": "^2.7.1",
