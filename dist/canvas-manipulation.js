@@ -1,5 +1,5 @@
 /*
- * @blinkmobile/canvas-manipulation: v1.0.0
+ * @blinkmobile/canvas-manipulation: v1.0.1
  * https://github.com/blinkmobile/canvas-manipulation#readme
  *
  * Copyright 2017 BlinkMobile
