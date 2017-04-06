@@ -1,9 +1,16 @@
 {
   "extends": [
     "eslint:recommended",
+    "plugin:node/recommended",
     "standard"
   ],
   "env": {
     "es6": true
+  },
+  "plugins": [
+    "node"
+  ],
+  "rules": {
+    "node/no-unsupported-features": "off"
   }
 }
