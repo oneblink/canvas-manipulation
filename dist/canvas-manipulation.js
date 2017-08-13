@@ -126,7 +126,7 @@ function resize(canvas /* : HTMLCanvasElement */
   // to resize the image before we resize the canvas
   var croppedImageData = getImageDataCropped(canvas);
 
-  // If image is completly transparent, just resize.
+  // If image is completely transparent, just resize.
   if (!croppedImageData) {
     canvas.width = width;
     canvas.height = height;
