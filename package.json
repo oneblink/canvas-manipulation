@@ -46,8 +46,8 @@
     "test": "test"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=8",
+    "npm": ">=5"
   },
   "files": [
     "dist"
