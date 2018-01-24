@@ -26,25 +26,27 @@ const shortBanner = `/*
 module.exports = [
   {
     rollup: {
-      entry: 'index.js',
+      input: 'index.js',
       plugins
     },
     bundle: {
-      dest: 'dist/canvas-manipulation.js',
+      file: 'dist/canvas-manipulation.js',
       format: 'umd',
-      moduleName: 'canvasManipulation',
+      name: 'canvasManipulation',
+      extend: true,
       banner: longBanner
     }
   },
   {
     rollup: {
-      entry: 'index.js',
+      input: 'index.js',
       plugins: [...plugins, uglify()]
     },
     bundle: {
-      dest: 'dist/canvas-manipulation.min.js',
+      file: 'dist/canvas-manipulation.min.js',
       format: 'umd',
-      moduleName: 'canvasManipulation',
+      name: 'canvasManipulation',
+      extend: true,
       banner: shortBanner
     }
   }

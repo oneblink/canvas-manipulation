@@ -2,7 +2,7 @@
  * @blinkmobile/canvas-manipulation: v1.0.1
  * https://github.com/blinkmobile/canvas-manipulation#readme
  *
- * Copyright 2017 BlinkMobile
+ * Copyright 2018 BlinkMobile
  * Released under the MIT license
  *
  * Helper functions for manipulating a HTMLCanvasElement
