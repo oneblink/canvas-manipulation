@@ -37,7 +37,7 @@
     "remark-cli": "^5.0.0",
     "remark-lint": "^6.0.0",
     "remark-preset-lint-recommended": "^3.0.0",
-    "rollup": "^0.55.0",
+    "rollup": "^0.56.1",
     "rollup-plugin-babel": "^3.0.0",
     "rollup-plugin-uglify": "^3.0.0"
   },
